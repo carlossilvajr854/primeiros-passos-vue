@@ -4,21 +4,21 @@
 
 <script>
     export default {
-        name: 'LifeCycle',
+        name: "LifeCycle",
         data() {
             return {
-                nome: 'Ainda não sei'
-            }
+                nome: "Ainda não sei",
+            };
         },
         created() {
             setTimeout(() => {
-                this.nome = 'Carlos'
-            }, 1000)
+                this.nome = "Carlos";
+            }, 1000);
         },
         mounted() {
             setTimeout(() => {
-                this.nome = 'Suzy'
-            }, 2000)
-        }
-    }
+                this.nome = "Suzy";
+            }, 2000);
+        },
+    };
 </script>
