@@ -19,7 +19,7 @@
         },
         methods: {
             trocarImagem() {
-                this.avatar = "/img/post0001.png";
+                this.avatar = "/img/avatar2.png";
             },
         },
     };
